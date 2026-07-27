@@ -133,10 +133,10 @@ h1 {
 .form-intro {
   max-width: 24rem;
   margin: 0 auto 0.45rem;
-  color: var(--ink-muted);
-  font-size: 0.96rem;
+  color: var(--ink);
+  font-size: clamp(1.08rem, 2.7vw, 1.22rem);
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.55;
   text-align: center;
 }
 
